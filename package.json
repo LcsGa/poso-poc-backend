@@ -1,0 +1,19 @@
+{
+  "name": "poso-poc-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon dist/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@manhnd/esc-pos-encoder": "^1.0.21",
+    "usb": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}

@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "build-watch": "tsc --watch",
     "start": "nodemon dist/main"
   },
   "keywords": [],

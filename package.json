@@ -4,16 +4,12 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build-watch": "tsc --watch",
-    "start": "nodemon dist/main"
+    "start": "node main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@manhnd/esc-pos-encoder": "^1.0.21",
-    "usb": "^2.9.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^18.15.11"
   }

@@ -1,6 +1,8 @@
-import { readFile } from "fs";
+const { readFile } = require("fs");
 
-readFile("C:/Users/lgarcia/Desktop/test.bin", (_, data) =>
+const filePath = "C:/Users/lgarcia/Desktop/bst200ct.bin";
+
+readFile(filePath, (_, data) =>
   console.log(
     "{ " +
       [...data]
